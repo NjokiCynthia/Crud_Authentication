@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/vuelogin/',  'Auth\LoginController@vuelogin')->name('vuelogin');
 
  Route::get('/vuelogin', function () {
-    return view('welcome');
+    return view('vuelogin');
 
    
 });

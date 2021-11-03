@@ -69,6 +69,6 @@
         
           e.preventDefault();
         }
-      }
+        }
     }
 </script>
